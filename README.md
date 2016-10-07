@@ -1,8 +1,34 @@
 # rxjs-koredake
 rxjs-koredake
 
+[Demo on GitHub Pages](https://ovrmrw.github.io/rxjs-koredake/)
+
 ---
 
+## Setup
+```
+$ npm install
+```
+
+## Run (JiT)
+```
+$ npm start
+```
+
+## Run (AoT)
+```
+$ npm run aot
+```
+
+## Deploy (JiT)
+```
+$ npm run deploy
+```
+
+## Deploy (AoT)
+```
+$ npm run deploy:aot
+```
 
 ---
 

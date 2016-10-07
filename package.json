@@ -9,7 +9,10 @@
     "test": "ng test",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor",
-    "aot": "ng serve --aot"
+    "aot": "ng serve --aot",
+    "publish": "node build/publish-files.js",
+    "deploy": "ng build --prod --base-href /rxjs-koredake/ && npm run publish",
+    "deploy:aot": "ng build --prod --aot --base-href /rxjs-koredake/ && npm run publish"
   },
   "private": true,
   "dependencies": {

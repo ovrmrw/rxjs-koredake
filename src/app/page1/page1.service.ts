@@ -10,7 +10,7 @@ export class Page1Service {
   ) { }
 
 
-  increment(){
+  increment() {
     this.dispatcher$.next(new IncrementAction(1));
   }
 }
